@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ex-input {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid;
+  background-color: rgb(255, 255, 255);
+  padding: 3px 5px;
+  font-size: 16px;
+}
+.ex-but {
+  padding: 20px 60px;
+  background-color: #fff;
+  border: 4px solid lime;
+  border-radius: 15px;
+  font-size: 20px;
+}
+.ex-but:hover {
+  cursor: pointer;
+  background-color: lime;
+  color: #fff;
+}
+.audio {
+  border: 3px solid lime;
+  border-radius: 45px;
+}
+.hide {
+  display: none;
+}
+.inp {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.inp:hover {
+  cursor: pointer;
+}
+.table {
+  display: flex;
+}
+.th {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+.span {
+  font-weight: bold;
+}
+.exam {
+  display: flex;
+  flex-direction: column;
+  padding-left: 150px;
+}
+.map {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.map h4{
+  margin-left: 270px;
+  font-weight: bold;
+}
+.map-answer {
+  display: flex;
+  flex-direction: row;
+}
+.p4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.part4{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+border: 1px solid #000;
+}
+.answers-p4 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.center{
+  margin-left: 70px;
+}
